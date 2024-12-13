@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body>
+  <header>
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Artifacts</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="assets/images/Hero Image.png" alt="Hero Image">
+      <div class="hero-content">
+        <h1>Timeless Legacy</h1>
+        <a href="#" class="btn artifact-btn">Learn More</a>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>About the Project</h2>
+          <p class="about-text-large" style="margin: 20px 0;">Explore the timeless legacy of leadership through our thoughtfully curated online gallery of presidential artifacts. Focused on the enduring impact of early presidents, our collection brings history to life with a stunning array of intricately crafted sculptures, busts, and historical memorabilia. From hand-carved statues to meticulously designed 3D models, each piece captures the essence of vision, courage, and service that shaped the foundation of nations.
+
+            <br><br>Journey through the artistry and craftsmanship that honor the lives and achievements of these iconic leaders, revealing the stories behind their influence on history. Whether you're an admirer of fine art, a history enthusiast, or simply curious about the legacy of leadership, our collection offers an immersive experience into the artistry and historical significance of these enduring figures. Witness how their ideals and accomplishments continue to inspire and resonate in the modern world.</p>
+          <a href="#" class="btn artifact-btn" style="margin-top: 20px;">Explore</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="artifacts">
+      <h2>Artifacts</h2>
+      <div class="artifact-cards">
+        <div class="artifact-card">
+          <img src="assets/images/George_Washington_1.png" alt="Artifact 1">
+          <div class="carousel">
+            <div class="carousel-container">
+              <img src="assets/images/George_Washington_2.png" alt="Artifact 1 Image 1">
+              <img src="assets/images/George_Washington_3.png" alt="Artifact 1 Image 2">
+            </div>
+          </div>
+          <h3>George Washington Marble Bust</h3>
+          <p>Created around 1819 by the skilled sculptor Massimiliano Ravenna, this piece is a remarkable reimagining of Giuseppe Ceracchi's original work. It pays homage to George Washington, America’s first president, encapsulating his role as a soldier, statesman, and the bedrock of democracy. The sculpture reflects the admiration and reverence held for Washington, showcasing his strength, dignity, and unwavering commitment to the ideals of liberty and justice. Ravenna's meticulous craftsmanship brings Ceracchi’s vision to life, blending neoclassical artistry with profound historical significance. This enduring tribute celebrates Washington’s pivotal contributions to the nation, immortalizing his legacy as the cornerstone of American independence and leadership.</p>
+          <a href="#" class="btn artifact-btn">Learn More</a>
+          <div class="model-viewer-container">
+            <div class="model-viewer">
+              <model-viewer src="assets/3d_models/gw_bust-150k-4096.glb" 
+                          camera-controls
+                          auto-rotate
+                          shadow-intensity="1"
+                          exposure="1"
+                          shadow-softness="1"
+                          environment-image="neutral"
+                          alt="3D model of George Washington bust"
+                          poster="assets/images/loadingimg.jpg"
+                          loading="lazy"
+                          reveal="auto"
+                          interaction-prompt="auto">
+              </model-viewer>
+            </div>
+          </div>
+        </div>
+        <div class="artifact-card">
+          <img src="assets/images/James_Garfield_1.png" alt="Artifact 2">
+          <div class="carousel">
+            <div class="carousel-container">
+              <img src="assets/images/James_Garfield_2.png" alt="Artifact 2 Image 1">
+              <img src="assets/images/James_Garfield_3.png" alt="Artifact 2 Image 2">
+            </div>
+          </div>
+          <h3>James Garfield</h3>
+          <p>Celebrate the legacy of James A. Garfield, the 20th President of the United States, with this masterfully crafted sculpture. Known for his rise from humble beginnings to the nation’s highest office, Garfield's story embodies resilience and dedication. The sculpture captures his strong yet thoughtful demeanor, a testament to his leadership during a pivotal time in American history. As a staunch advocate for civil rights and education, Garfield's brief presidency left an enduring impact. This piece serves as a tribute to his ideals, immortalizing his vision for a united and progressive America.</p>
+          <a href="#" class="btn artifact-btn">Learn More</a>
+          <div class="model-viewer-container">
+            <div class="model-viewer">
+              <model-viewer src="assets/3d_models/James_Garfield/james-garfield-bronze-sculpture-150k-4096-web.gltf" 
+                          camera-controls
+                          auto-rotate
+                          shadow-intensity="1"
+                          exposure="1"
+                          shadow-softness="1"
+                          environment-image="neutral"
+                          alt="3D model of James Garfield"
+                          poster="assets/images/loadingimg.jpg"
+                          loading="lazy"
+                          reveal="auto"
+                          interaction-prompt="auto">
+              </model-viewer>
+            </div>
+          </div>
+        </div>
+        <div class="artifact-card">
+          <img src="assets/images/Andrew_Jackson_1.png" alt="Artifact 3">
+          <div class="carousel">
+            <div class="carousel-container">
+              <img src="assets/images/Andrew_Jackson_2.png" alt="Artifact 3 Image 1">
+              <img src="assets/images/Andrew_Jackson_3.png" alt="Artifact 3 Image 2">
+            </div>
+          </div>
+          <h3>Andrew Jackson</h3>
+          <p>Crafted to honour Andrew Jackson, the seventh President of the United States, this striking sculpture captures the dynamic spirit of a leader who shaped an era. Known as a war hero and a champion of the common man, Jackson's legacy is one of resilience, bold leadership, and complex historical significance. The sculpture portrays his commanding presence, reflecting his role in pivotal moments such as the Battle of New Orleans and his transformative influence on the American presidency. With intricate detailing that highlights his determined expression and steadfast posture, this piece serves as a tribute to Jackson's enduring impact on the nation's political and social landscape.</p>
+          <a href="#" class="btn artifact-btn">Learn More</a>
+          <div class="model-viewer-container">
+            <div class="model-viewer">
+              <model-viewer src="assets/3d_models/Andrew_Jackson/andrew-jackson-zinc-sculpture-150k-4096-web.gltf"
+                          camera-controls
+                          auto-rotate
+                          shadow-intensity="1"
+                          exposure="1"
+                          shadow-softness="1"
+                          environment-image="neutral"
+                          alt="3D model of Andrew Jackson"
+                          poster="assets/images/loadingimg.jpg"
+                          loading="lazy"
+                          reveal="auto"
+                          interaction-prompt="auto">
+              </model-viewer>
+            </div>
+          </div>
+        </div>
+        <div class="artifact-card">
+          <img src="assets/images/Rutherford B. Hayes_1.png" alt="Artifact 4">
+          <div class="carousel">
+            <div class="carousel-container">
+              <img src="assets/images/Rutherford B. Hayes_2.png" alt="Artifact 4 Image 1">
+              <img src="assets/images/Rutherford B. Hayes_3.png" alt="Artifact 4 Image 2">
+            </div>
+          </div>
+          <h3>Rutherford B. Hayes</h3>
+          <p>This sculpture of Rutherford B. Hayes, the 19th President of the United States, captures the quiet strength and integrity that defined his leadership. Known for his role in ending Reconstruction and promoting civil service reform, Hayes was a president committed to healing a divided nation. The sculpture reflects his calm yet resolute demeanor, symbolizing his efforts to restore the Union after the Civil War and his emphasis on fairness and justice. Hayes' legacy is one of reconciliation, as he worked to bring peace to a post-war America while focusing on government efficiency and reform. This piece immortalizes his legacy, honoring his dignified leadership and commitment to the ideals of democracy and unity.</p>
+          <a href="#" class="btn artifact-btn">Learn More</a>
+          <div class="model-viewer-container">
+            <div class="model-viewer">
+              <model-viewer src="assets/3d_models/Rutherford B.Hayes/rutherford-b-hayes-plaster-150k-4096.gltf" 
+                          camera-controls
+                          auto-rotate
+                          shadow-intensity="1"
+                          exposure="1"
+                          shadow-softness="1"
+                          environment-image="neutral"
+                          alt="3D model of Rutherford B. Hayes"
+                          poster="assets/images/loadingimg.jpg"
+                          loading="lazy"
+                          reveal="auto"
+                          interaction-prompt="auto">
+              </model-viewer>
+            </div>
+          </div>
+        </div>
+        <div class="artifact-card">
+          <img src="assets/images/Abraham Lincoln1.png" alt="Artifact 5">
+          <div class="carousel">
+            <div class="carousel-container">
+              <img src="assets/images/Abraham Lincoln2.png" alt="Artifact 5 Image 1">
+              <img src="assets/images/Abraham Lincoln3.png" alt="Artifact 5 Image 2">
+            </div>
+          </div>
+          <h3>Abraham Lincoln Life Mask</h3>
+          <p>Created in 1860 by Leonard Wells Volk, this plaster mask offers a rare glimpse of Abraham Lincoln just before he would take on his pivotal role in American history. It was cast in 1917, preserving the likeness of the 16th president at a moment when he had yet to face the immense challenges of the Civil War. The mask captures Lincoln's features with remarkable accuracy, showcasing his face before the emotional and physical toll that the war would inflict on him.
+            This piece is more than just a work of art; it is a historical artifact that serves as a timeless reminder of Lincoln’s leadership, resilience, and vision for the future of the United States. The mask's preservation allows us to witness the face of a man who would go on to become one of the most revered figures in American history.</p>
+          <a href="#" class="btn artifact-btn">Learn More</a>
+          <div class="model-viewer-container">
+            <div class="model-viewer">
+              <model-viewer src="assets/3d_models/Lincoln/npg_71_24_mesh-100k-web.gltf" 
+                          camera-controls
+                          auto-rotate
+                          shadow-intensity="1"
+                          exposure="1"
+                          shadow-softness="1"
+                          environment-image="neutral"
+                          alt="3D model of Abraham Lincoln"
+                          poster="assets/images/loadingimg.jpg"
+                          loading="lazy"
+                          reveal="auto"
+                          interaction-prompt="auto">
+              </model-viewer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- QR Codes Grid Section -->
+    <section class="qr-codes-grid">
+      <h2>Experience in Augmented Reality</h2>
+      <div class="qr-grid">
+        <div class="qr-code-section">
+          <img src="assets/IMAGES/GeorgeQR.png" alt="QR Code for AR Experience" class="qr-code">
+          <p class="qr-description">George Washington bust in AR</p>
+        </div>
+        <div class="qr-code-section">
+          <img src="assets/IMAGES/jamesQR.png" alt="QR Code for AR Experience" class="qr-code">
+          <p class="qr-description">James Garfield sculpture in AR</p>
+        </div>
+        <div class="qr-code-section">
+          <img src="assets/IMAGES/AndrewQR.png" alt="QR Code for AR Experience" class="qr-code">
+          <p class="qr-description">Andrew Jackson sculpture in AR</p>
+        </div>
+        <div class="qr-code-section">
+          <img src="assets/IMAGES/RutherfordQR.png" alt="QR Code for AR Experience" class="qr-code">
+          <p class="qr-description">Rutherford B. Hayes sculpture in AR</p>
+        </div>
+        <div class="qr-code-section">
+          <img src="assets/IMAGES/LincolnQR.png" alt="QR Code for AR Experience" class="qr-code">
+          <p class="qr-description">Abraham Lincoln life mask in AR</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Timeless Legacy</p>
+    </footer>
+  </main>
+</body>
+</html>
